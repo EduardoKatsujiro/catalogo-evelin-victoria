@@ -1,0 +1,96 @@
+:root {
+    --roxo: #3F2A56;
+    --dourado: #C5A36D;
+    --branco: #ffffff;
+    --cinza-claro: #f4f4f4;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: var(--cinza-claro);
+}
+
+header {
+    background-color: var(--dourado); /* Fundo dourado para destacar a logo roxa */
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#busca {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 1px solid var(--roxo);
+    display: block;
+    margin: 0 auto;
+    outline: none;
+}
+
+.banner-promocao {
+    background-color: var(--roxo);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.produto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.preco {
+    font-size: 22px;
+    color: var(--roxo);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-whatsapp {
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    border-radius: 8px;
+    font-weight: bold;
+}
+footer {
+    width: 100%;             /* Garante que o rodapé ocupe a largura toda */
+    text-align: center;      /* Centraliza o texto */
+    padding: 40px 0;         /* Dá um espaço confortável em cima e embaixo */
+    color: #666;             /* Cor cinza profissional */
+    font-size: 13px;         /* Tamanho legível */
+    line-height: 1.6;        /* Espaçamento entre as linhas do texto */
+    background-color: var(--cinza-claro); /* Mantém o fundo limpo */
+    clear: both;             /* Garante que nada nas laterais atrapalhe */
+}
