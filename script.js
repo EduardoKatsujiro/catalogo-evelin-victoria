@@ -3,7 +3,7 @@ const produtos = [
         nome: "Malbec X 100ml", 
         marca: "Boticário", 
         preco: "189,90", 
-        img: "img/malbec.png" 
+        img: "img/Malbec.png" 
     },
     { 
         nome: "Eudora Velvet Sensual", 
